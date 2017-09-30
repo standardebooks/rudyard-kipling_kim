@@ -20,6 +20,11 @@ abbr.initialism{
 	font-style: normal;
 }
 
+[epub|type~="epigraph"] cite{
+	font-style: normal;
+	font-variant: all-small-caps;
+}
+
 [epub|type~="z3998:verse"] p,
 [epub|type~="z3998:song"] p{
 	text-align: left;
@@ -44,6 +49,10 @@ abbr.initialism{
 
 [epub|type~="z3998:song"] + p{
 	text-indent: 0;
+}
+
+span[epub|type~="z3998:letter"]{
+	font-style: italic;
 }
 
 .telegram{
