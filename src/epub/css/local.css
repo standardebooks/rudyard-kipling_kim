@@ -38,6 +38,11 @@ abbr.initialism{
 	padding-left: 1em;
 }
 
+[epub|type~="z3998:verse"] p > span.i1,
+[epub|type~="z3998:song"] p > span.i1{
+	padding-left: 2em;
+}
+
 [epub|type~="z3998:verse"] p > span + br,
 [epub|type~="z3998:song"] p > span + br{
 	display: none;
