@@ -56,6 +56,10 @@ abbr.initialism{
 	text-indent: 0;
 }
 
+span.invocation{
+	font-style: italic;
+}
+
 span[epub|type~="z3998:letter"]{
 	font-style: italic;
 }
