@@ -67,7 +67,3 @@ span.invocation{
 span[epub|type~="z3998:letter"]{
 	font-style: italic;
 }
-
-.telegram{
-	font-style: italic;
-}
