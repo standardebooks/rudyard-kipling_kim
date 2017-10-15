@@ -33,46 +33,50 @@
 		<meta property="meta-auth" refines="#subject-5">https://www.gutenberg.org/ebooks/2226</meta>
 		<meta property="meta-auth" refines="#subject-6">https://www.gutenberg.org/ebooks/2226</meta>
 		<meta property="meta-auth" refines="#subject-7">https://www.gutenberg.org/ebooks/2226</meta>
-		<meta property="se:subject">TAG</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<meta property="se:subject">Fiction</meta>
+		<meta property="se:subject">Adventure</meta>
+		<meta property="se:subject">Childrens</meta>
+		<dc:description id="description">An orphaned street-urchin follows a holy man across India during the time of the British Raj, eventually gaining an education and becoming a recruit to the Great Game of espionage against the Russians.</dc:description>
 		<meta property="meta-auth" refines="#description">https://standardebooks.org</meta>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONGDESCRIPTION
+			&lt;p&gt;Rudyard Kipling’s novel &lt;i&gt;Kim&lt;/i&gt;, published in 1901, tells the story of Kimberly O’Hara (“Kim”), the orphaned son of an Anglo-Irish soldier, who grows up as a street-urchin on the streets of Lahore in India during the time of the British Raj. Knowing little of his parentage, he is as much a native as his companions, speaking Hindi and Urdu rather than English, cunning and street-wise.&lt;/p&gt;
+			&lt;p&gt;At about the age of twelve, Kim encounters an old Tibetan lama on a pilgrimage in search of a holy river. He decides to fall in with the lama on his travels, and becomes in essence the old man’s disciple. Not long after, Kim is captured at an encampment of British soldiers under suspicion of being a thief. His parentage is discovered and the officers decide he must be raised as a “Sahib” (an Englishman) and sent off to school. The interest of the British officers in Kim is not entirely disinterested, however, as they see his potential for acting as a courier and spy as part of their “Great Game” of espionage against their bitter rivals the Russians, and ensure that he is trained accordingly.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Kim&lt;/i&gt; is a well-loved book, often being listed as one of the best English-language novels. Its depiction of the India of the time, its varied races, religions, customs and scenery is detailed, rich and sympathetic. And the manoeuverings of the players in the “Great Game” make for an entertaining adventure story.&lt;/p&gt;
 		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/2226</dc:source>
-		<meta property="se:production-notes">Any special notes about the production of this ebook for future editors/producers? Remove this element if not.</meta>
+		<meta property="se:production-notes">Identifying the correct language for the very many xml:lang tags used for italicised words or phrases has been a challenge, despite considerable research. In some instances the only reference for an italicised word appears to be Kipling's work itself. In such cases, words have been tagged as xml:lang="hi" for Hindi since this is the language the protagonist mostly uses. Future producers should be aware that some tags are doubtful, or might be contested.</meta>
 		<meta property="se:word-count">WORDCOUNT</meta>
 		<meta property="se:reading-ease.flesch">READINGEASE</meta>
-		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Kim</meta>
+		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Kim_(novel)</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/rudyard-kipling_kim</meta>
 		<dc:creator id="author">Rudyard Kipling</dc:creator>
-		<meta property="file-as" refines="#author">AUTHORSORT</meta>
-		<meta property="se:name.person.full-name" refines="#author">AUTHORFULLNAME</meta>
+		<meta property="file-as" refines="#author">Kipling, Rudyard</meta>
+		<meta property="se:name.person.full-name" refines="#author">Joseph Rudyard Kipling</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Rudyard_Kipling</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n79103792</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:contributor id="artist">COVERARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVERARTISTSORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVERARTISTWIKILINK</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVERARTISTNACOAFLINK</meta>
+		<dc:contributor id="artist">William Simpson</dc:contributor>
+		<meta property="file-as" refines="#artist">Simpson, William</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/William_Simpson_(artist)</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n86023833</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Patricia Franks</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBERSORT</meta>
+		<meta property="file-as" refines="#transcriber-1">Franks, Patricia</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-2">Karyl Basmajian</dc:contributor>
-		<meta property="file-as" refines="#transcriber-2">TRANSCRIBERSORT</meta>
+		<meta property="file-as" refines="#transcriber-2">Basmajian, Karyl</meta>
 		<meta property="role" refines="#transcriber-2" scheme="marc:relators">trc</meta>
 		<dc:contributor id="transcriber-3">Nancy K. Smith</dc:contributor>
-		<meta property="file-as" refines="#transcriber-3">TRANSCRIBERSORT</meta>
+		<meta property="file-as" refines="#transcriber-3">Smith, Nancy K.</meta>
 		<meta property="role" refines="#transcriber-3" scheme="marc:relators">trc</meta>
-		<dc:contributor id="transcriber-4">Dave Bruchie.</dc:contributor>
-		<meta property="file-as" refines="#transcriber-4">TRANSCRIBERSORT</meta>
+		<dc:contributor id="transcriber-4">Dave Bruchie</dc:contributor>
+		<meta property="file-as" refines="#transcriber-4">Bruchie, Dave</meta>
 		<meta property="role" refines="#transcriber-4" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCERSORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">LINK</meta>
+		<dc:contributor id="producer-1">David Grigg</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Grigg, David</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://rightword.com.au/david.php</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">cov</meta>
@@ -87,6 +91,21 @@
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
+		<item href="text/chapter-1.xhtml" id="chapter-1.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-2.xhtml" id="chapter-2.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-3.xhtml" id="chapter-3.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-4.xhtml" id="chapter-4.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-5.xhtml" id="chapter-5.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-6.xhtml" id="chapter-6.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-7.xhtml" id="chapter-7.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-8.xhtml" id="chapter-8.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-9.xhtml" id="chapter-9.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-10.xhtml" id="chapter-10.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-11.xhtml" id="chapter-11.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-12.xhtml" id="chapter-12.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-13.xhtml" id="chapter-13.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-14.xhtml" id="chapter-14.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/chapter-15.xhtml" id="chapter-15.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
@@ -95,6 +114,21 @@
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
+		<itemref idref="chapter-1.xhtml"/>
+		<itemref idref="chapter-2.xhtml"/>
+		<itemref idref="chapter-3.xhtml"/>
+		<itemref idref="chapter-4.xhtml"/>
+		<itemref idref="chapter-5.xhtml"/>
+		<itemref idref="chapter-6.xhtml"/>
+		<itemref idref="chapter-7.xhtml"/>
+		<itemref idref="chapter-8.xhtml"/>
+		<itemref idref="chapter-9.xhtml"/>
+		<itemref idref="chapter-10.xhtml"/>
+		<itemref idref="chapter-11.xhtml"/>
+		<itemref idref="chapter-12.xhtml"/>
+		<itemref idref="chapter-13.xhtml"/>
+		<itemref idref="chapter-14.xhtml"/>
+		<itemref idref="chapter-15.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
