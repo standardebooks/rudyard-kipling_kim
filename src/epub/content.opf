@@ -2,9 +2,9 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/rudyard-kipling/kim</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
-		<meta property="se:revision-number">0</meta>
+		<dc:date>2017-10-19T19:44:42Z</dc:date>
+		<meta property="dcterms:modified">2017-10-19T19:44:42Z</meta>
+		<meta property="se:revision-number">1</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -41,7 +41,7 @@
 		<meta id="long-description" property="se:long-description" refines="#description">
 			&lt;p&gt;Rudyard Kipling’s novel &lt;i&gt;Kim&lt;/i&gt;, published in 1901, tells the story of Kimberly O’Hara (“Kim”), the orphaned son of an Anglo-Irish soldier, who grows up as a street-urchin on the streets of Lahore in India during the time of the British Raj. Knowing little of his parentage, he is as much a native as his companions, speaking Hindi and Urdu rather than English, cunning and street-wise.&lt;/p&gt;
 			&lt;p&gt;At about the age of twelve, Kim encounters an old Tibetan lama on a pilgrimage in search of a holy river. He decides to fall in with the lama on his travels, and becomes in essence the old man’s disciple. Not long after, Kim is captured at an encampment of British soldiers under suspicion of being a thief. His parentage is discovered and the officers decide he must be raised as a “Sahib” (an Englishman) and sent off to school. The interest of the British officers in Kim is not entirely disinterested, however, as they see his potential for acting as a courier and spy as part of their “Great Game” of espionage against their bitter rivals the Russians, and ensure that he is trained accordingly.&lt;/p&gt;
-			&lt;p&gt;&lt;i&gt;Kim&lt;/i&gt; is a well-loved book, often being listed as one of the best English-language novels. Its depiction of the India of the time, its varied races, religions, customs and scenery is detailed, rich and sympathetic. And the manoeuverings of the players in the “Great Game” make for an entertaining adventure story.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Kim&lt;/i&gt; is a well-loved book, often being listed as one of the best English-language novels. Its depiction of the India of the time, its varied races, religions, customs and scenery is detailed, rich and sympathetic. And the manoeuverings of the players in the Great Game make for an entertaining adventure story.&lt;/p&gt;
 		</meta>
 		<meta property="meta-auth" refines="#long-description">https://standardebooks.org</meta>
 		<dc:language>en-GB</dc:language>
@@ -50,8 +50,8 @@
 		<dc:source>https://archive.org/details/kimrudyard02kipluoft</dc:source>
 		<dc:source>https://archive.org/details/kim0000kipl</dc:source>
 		<meta property="se:production-notes">Identifying the correct language for the very many xml:lang tags used for italicised words or phrases has been a challenge, despite considerable research. In some instances the only reference for an italicised word appears to be Kipling's work itself. In such cases, words have been tagged as xml:lang="ur" for Urdu since this is the language the protagonist mostly uses. Future producers should be aware that some tags are doubtful, or might be contested.</meta>
-		<meta property="se:word-count">WORDCOUNT</meta>
-		<meta property="se:reading-ease.flesch">READINGEASE</meta>
+		<meta property="se:word-count">106788</meta>
+		<meta property="se:reading-ease.flesch">82.85</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Kim_(novel)</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/rudyard-kipling_kim</meta>
 		<dc:creator id="author">Rudyard Kipling</dc:creator>
@@ -86,6 +86,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
