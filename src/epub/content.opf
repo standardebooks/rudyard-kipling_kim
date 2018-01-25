@@ -3,8 +3,8 @@
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/rudyard-kipling/kim</dc:identifier>
 		<dc:date>2017-10-19T19:44:42Z</dc:date>
-		<meta property="dcterms:modified">2017-12-21T22:43:55Z</meta>
-		<meta property="se:revision-number">2</meta>
+		<meta property="dcterms:modified">2018-01-25T00:55:12Z</meta>
+		<meta property="se:revision-number">3</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -50,7 +50,7 @@
 		<dc:source>https://archive.org/details/kimrudyard02kipluoft</dc:source>
 		<dc:source>https://archive.org/details/kim0000kipl</dc:source>
 		<meta property="se:production-notes">Identifying the correct language for the very many xml:lang tags used for italicised words or phrases has been a challenge, despite considerable research. In some instances the only reference for an italicised word appears to be Kipling's work itself. In such cases, words have been tagged as xml:lang="ur" for Urdu since this is the language the protagonist mostly uses. Future producers should be aware that some tags are doubtful, or might be contested.</meta>
-		<meta property="se:word-count">106788</meta>
+		<meta property="se:word-count">106656</meta>
 		<meta property="se:reading-ease.flesch">82.85</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Kim_(novel)</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/rudyard-kipling_kim</meta>
