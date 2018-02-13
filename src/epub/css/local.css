@@ -1,10 +1,6 @@
 @charset "utf-8";
 @namespace epub "http://www.idpf.org/2007/ops";
 
-abbr.initialism{
-	font-variant: all-small-caps;
-}
-
 abbr.name{
 	white-space: nowrap;
 }
@@ -65,4 +61,8 @@ span.invocation{
 
 span[epub|type~="z3998:letter"]{
 	font-style: italic;
+}
+
+span[epub|type~="z3998:letter"] i{
+	font-style: normal;
 }
