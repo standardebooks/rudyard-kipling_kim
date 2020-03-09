@@ -65,8 +65,8 @@
 		<dc:source>https://archive.org/details/kimrudyard02kipluoft</dc:source>
 		<dc:source>https://archive.org/details/kim0000kipl</dc:source>
 		<meta property="se:production-notes">Identifying the correct language for the very many xml:lang tags used for italicised words or phrases has been a challenge, despite considerable research. In some instances the only reference for an italicised word appears to be Kipling's work itself. In such cases, words have been tagged as xml:lang="ur" for Urdu since this is the language the protagonist mostly uses. Future producers should be aware that some tags are doubtful, or might be contested.</meta>
-		<meta property="se:word-count">106657</meta>
-		<meta property="se:reading-ease.flesch">82.95</meta>
+		<meta property="se:word-count">106719</meta>
+		<meta property="se:reading-ease.flesch">82.85</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Kim_(novel)</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/rudyard-kipling_kim</meta>
 		<dc:creator id="author">Rudyard Kipling</dc:creator>
