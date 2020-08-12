@@ -5,11 +5,6 @@
 	font-style: italic;
 	hyphens: none;
 	-epub-hyphens: none;
-	margin: 3em;
-	margin-top: 0;
-	text-align: left;
-	text-indent: 0;
-	display: inline-block;
 }
 
 [epub|type~="epigraph"] em{
@@ -21,6 +16,21 @@
 	font-style: normal;
 	font-variant: small-caps;
 }
+
+/* Epigraphs in section headers */
+section > header [epub|type~="epigraph"]{
+	display: inline-block;
+	margin: auto;
+	max-width: 80%;
+	text-align: left;
+}
+
+@supports(display: table){
+	section > header [epub|type~="epigraph"]{
+		display: table;
+	}
+}
+/* End epigraphs in section headers */
 
 [epub|type~="z3998:verse"] p,
 [epub|type~="z3998:song"] p{
