@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/rudyard-kipling/kim</dc:identifier>
 		<dc:date>2017-10-19T19:44:42Z</dc:date>
@@ -59,12 +59,12 @@
 		<meta id="collection-2" property="belongs-to-collection">The Guardian’s Best 100 Novels in English (2015)</meta>
 		<meta property="collection-type" refines="#collection-2">set</meta>
 		<meta property="group-position" refines="#collection-2">34</meta>
-		<dc:description id="description">An orphaned street-urchin follows a holy man across India during the time of the British Raj, eventually gaining an education and becoming a recruit to the Great Game of espionage against the Russians.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>An orphaned street-urchin follows a holy man across India during the time of the British Raj, eventually gaining an education and becoming a recruit to the Great Game of espionage against the Russians.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/rudyard-kipling"&gt;Rudyard Kipling’s&lt;/a&gt; novel &lt;i&gt;Kim&lt;/i&gt;, published in 1901, tells the story of Kimball O’Hara (“Kim”), the orphaned son of an Anglo-Irish soldier, who grows up as a street-urchin on the streets of Lahore in India during the time of the British Raj. Knowing little of his parentage, he is as much a native as his companions, speaking Hindi and Urdu rather than English, cunning and street-wise.&lt;/p&gt;
 			&lt;p&gt;At about the age of twelve, Kim encounters an old Tibetan lama on a pilgrimage in search of a holy river. He decides to fall in with the lama on his travels, and becomes in essence the old man’s disciple. Not long after, Kim is captured at an encampment of British soldiers under suspicion of being a thief. His parentage is discovered and the officers decide he must be raised as a “Sahib” (an Englishman) and sent off to school. The interest of the British officers in Kim is not entirely disinterested, however, as they see his potential for acting as a courier and spy as part of their “Great Game” of espionage against their bitter rivals the Russians, and ensure that he is trained accordingly.&lt;/p&gt;
 			&lt;p&gt;&lt;i&gt;Kim&lt;/i&gt; is a well-loved book, often being listed as one of the best English-language novels. Its depiction of the India of the time, its varied races, religions, customs and scenery is detailed, rich and sympathetic. And the manoeuverings of the players in the Great Game make for an entertaining adventure story.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/2226</dc:source>
 		<dc:source>https://archive.org/details/kimkipling01kipluoft</dc:source>
